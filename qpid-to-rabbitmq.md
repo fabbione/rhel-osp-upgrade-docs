@@ -10,7 +10,7 @@
 1. Shut down and disable qpidd:
 
          service qpidd stop
-         chkconfig rabbitmq-server off
+         chkconfig qpidd off
 
 1. On your controller, install `rabbitmq`:
 
